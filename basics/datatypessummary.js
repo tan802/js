@@ -32,3 +32,26 @@ console.log("Hello World");
 console.log(typeof bigNumber);
 console.log(typeof outsideTemp );
 console.log(typeof myFunction);
+
+
+//**************************************************
+
+//Stack(Primitive) ,Heap(Non-Primitive)
+
+let myYoutubename = "Tanisha"
+let anotherName = myYoutubename
+anotherName="chaiaurcode"
+console.log(anotherName);
+console.log(myYoutubename); 
+
+
+let user1 ={
+    email:"user@google.com",
+    upi :"tanisha@okicici"
+}
+
+let user2 = user1
+
+user2.email ="Tan@google.com";
+console.log(user1.email);
+console.log(user2.email);
