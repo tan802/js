@@ -4,7 +4,7 @@ console.log(2< 1);
 console.log(2== 1);
 console.log(2!= 1);
 
-//make sure whilr comparing both the datatype are same
+//make sure while comparing both the datatype are same
 console.log("2" > 1);
 console.log("02" > 1);
 // in comparision null gets converted to 0 
